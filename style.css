@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+#thumbnail-container {
+    display: grid;
+    position: absolute;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100px;
+    top: 20vh;
+    height: auto;
+    overflow: scroll;
+  }
+  
+  #large-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #large-image-container img {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .main-container {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+  }
+  
+  #image1 {
+    width: 20vw;
+    height: 10vh;
+  }
+  
+  #image2 {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  #image3 {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  #image4 {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  #image5 {
+    width: 20vw;
+    height: 10vh;
+  }
+
+  @media screen (min-width: 200px) {
+     .thumbnail-container {
+        display: block;
+        width: 5px;
+        height: 5vh;
+
+     }
+    
+      #image1 {
+        width: 8vw;
+        height: 5vh;
+      }
+      #images2 {
+        width: 8vw;
+        height: 5vh;
+          }
+
+      #images3 {
+        width: 8vw;
+        height: 5vh;
+          }
+
+      #images4 {
+        width: 8vw;
+        height: 5vh;
+              }
+
+      #images5 {
+        width: 8vw;
+        height: 5vh;
+              }
+            
+            }              
+          
+    
+      
+      
+  
